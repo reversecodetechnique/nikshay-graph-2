@@ -1,49 +1,31 @@
-# Nikshay-Graph — Python dependencies
-# Install: pip install -r requirements.txt
-#
-# PyTorch Geometric requires a separate step — see below.
-
+# Nikshay-Graph — App Service (Dashboard only)
+# Torch is excluded — TGN inference runs on Azure Functions backend
+ 
 # ── Dashboard ─────────────────────────────────────────────
 streamlit
-
+ 
 # ── Data / ML ─────────────────────────────────────────────
 pandas
 numpy
 plotly
-
-# ── Graph (PageRank + pipeline) ───────────────────────────
+ 
+# ── Graph ─────────────────────────────────────────────────
 networkx
-
-# ── Deep Learning (TGN Stage 2) ───────────────────────────
-# CPU-only torch — remove +cpu suffix if you have a CUDA GPU
-torch --index-url https://download.pytorch.org/whl/cpu
-torch-geometric
-
+ 
 # ── Azure AI Services ─────────────────────────────────────
-azure-ai-textanalytics          # Stage 1 NER
-azure-cognitiveservices-speech  # Stage 5 TTS
-azure-eventhub                  # Stage 1 Event Hubs
-azure-functions                 # function_app.py (Azure Functions runtime)
-
+azure-ai-textanalytics
+azure-cognitiveservices-speech
+azure-eventhub
+azure-functions
+ 
 # ── Azure Cosmos DB (Gremlin API) ─────────────────────────
 gremlinpython
-
-# ── HTTP (translation + Azure ML endpoint calls) ──────────
+ 
+# ── HTTP ──────────────────────────────────────────────────
 requests
-
-# ── Synthetic data generation ─────────────────────────────
+ 
+# ── Synthetic data ────────────────────────────────────────
 faker
-
+ 
 # ── Env / config ──────────────────────────────────────────
 python-dotenv
-
-# ─────────────────────────────────────────────────────────────────────────────
-# PyTorch Geometric — install AFTER torch (needs matching wheel)
-# Run this command separately:
-#
-#   pip install torch-scatter torch-sparse torch-cluster torch-spline-conv \
-#       -f https://data.pyg.org/whl/torch-$(python -c "import torch; print(torch.__version__)").html
-#
-# If that URL fails, visit https://data.pyg.org/whl/ and pick the wheel
-# matching your torch version + OS (e.g. torch-2.3.0+cpu).
-# ─────────────────────────────────────────────────────────────────────────────
