@@ -25,6 +25,7 @@ Usage:
     from stage3_score import score_all_patients, detect_systemic_failures
 """
 
+from pathlib import Path
 import os
 import json
 import numpy as np

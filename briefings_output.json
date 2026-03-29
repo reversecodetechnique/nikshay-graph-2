@@ -1,214 +1,192 @@
 {
   "asha_briefings": {
-    "ASHA-TN-025": {
-      "asha_id": "ASHA-TN-025",
-      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100369: ⚠ URGENT VISIT — patient is confined to bed — RED FLAG: immediate referral needed. Refer to facility immediately — do not wait for next scheduled visit. Please update each card after your visit.",
-      "translated_text": "காலை வணக்கம். இன்று உங்களுக்கு 1 முன்னுரிமை நோயாளி(கள்) உள்ளனர். நோயாளி NIK-100369: அவசர ⚠ வருகை - நோயாளி படுக்கையில் அடைக்கப்பட்டுள்ளார் - சிவப்பு கொடி: உடனடி பரிந்துரை தேவை. உடனடியாக வசதியைப் பார்க்கவும் - அடுத்த திட்டமிடப்பட்ட வருகைக்காக காத்திருக்க வேண்டாம். உங்கள் வருகைக்குப் பிறகு ஒவ்வொரு அட்டையையும் புதுப்பிக்கவும்.",
+    "ASHA-TN-027": {
+      "asha_id": "ASHA-TN-027",
+      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100397: \u26a0 URGENT VISIT \u2014 has not taken medicine for 49 days. Bring medicine directly to the patient. Please update each card after your visit.",
+      "translated_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100397: \u26a0 URGENT VISIT \u2014 has not taken medicine for 49 days. Bring medicine directly to the patient. Please update each card after your visit.",
       "language": "Tamil",
       "patient_count": 1,
       "visit_cards": [
         {
           "rank": 1,
-          "patient_id": "NIK-100369",
+          "patient_id": "NIK-100397",
           "risk_level": "HIGH",
           "risk_score": 0.97,
           "days_missed": 49,
-          "explanation": "⚠ URGENT VISIT — patient is confined to bed — RED FLAG: immediate referral needed. Refer to facility immediately — do not wait for next scheduled visit.",
-          "asha_id": "ASHA-TN-025",
+          "explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 49 days. Bring medicine directly to the patient.",
+          "asha_id": "ASHA-TN-027",
           "block": "Tondiarpet"
         }
       ],
-      "audio_path": "data\\audio\\ASHA-TN-025.mp3",
-      "audio_available": true
+      "audio_path": null,
+      "audio_available": false
     },
-    "ASHA-TN-024": {
-      "asha_id": "ASHA-TN-024",
-      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100356: ⚠ URGENT VISIT — drug side-effects reported (grade ≥2) — patient has a pharmacological reason to stop medication. Patient may be stopping medicine due to side effects. Bring this to the MO's attention — do not advise them to stop. Please update each card after your visit.",
-      "translated_text": "காலை வணக்கம். இன்று உங்களுக்கு 1 முன்னுரிமை நோயாளி(கள்) உள்ளனர். நோயாளி NIK-100356: அவசர ⚠ வருகை - மருந்து பக்க விளைவுகள் தெரிவிக்கப்பட்டுள்ளன (தரம் ≥2) - நோயாளிக்கு மருந்துகளை நிறுத்த ஒரு மருந்தியல் காரணம் உள்ளது. பக்க விளைவுகள் காரணமாக நோயாளி மருந்தை நிறுத்தலாம். இதை MO இன் கவனத்திற்கு கொண்டு வாருங்கள் - நிறுத்துமாறு அவர்களுக்கு அறிவுறுத்த வேண்டாம். உங்கள் வருகைக்குப் பிறகு ஒவ்வொரு அட்டையையும் புதுப்பிக்கவும்.",
+    "ASHA-TN-010": {
+      "asha_id": "ASHA-TN-010",
+      "english_text": "Good morning. You have 2 priority patient(s) today. Patient NIK-100137: \u26a0 URGENT VISIT \u2014 patient has recurrent vomiting or diarrhoea \u2014 RED FLAG. Patient may be stopping medicine due to side effects. Bring this to the MO's attention \u2014 do not advise them to stop. Patient NIK-100139: \u26a0 URGENT VISIT \u2014 has not taken medicine for 28 days. Bring medicine directly to the patient. Please update each card after your visit.",
+      "translated_text": "Good morning. You have 2 priority patient(s) today. Patient NIK-100137: \u26a0 URGENT VISIT \u2014 patient has recurrent vomiting or diarrhoea \u2014 RED FLAG. Patient may be stopping medicine due to side effects. Bring this to the MO's attention \u2014 do not advise them to stop. Patient NIK-100139: \u26a0 URGENT VISIT \u2014 has not taken medicine for 28 days. Bring medicine directly to the patient. Please update each card after your visit.",
       "language": "Tamil",
-      "patient_count": 1,
+      "patient_count": 2,
       "visit_cards": [
         {
           "rank": 2,
-          "patient_id": "NIK-100356",
+          "patient_id": "NIK-100137",
           "risk_level": "HIGH",
           "risk_score": 0.97,
           "days_missed": 49,
-          "explanation": "⚠ URGENT VISIT — drug side-effects reported (grade ≥2) — patient has a pharmacological reason to stop medication. Patient may be stopping medicine due to side effects. Bring this to the MO's attention — do not advise them to stop.",
-          "asha_id": "ASHA-TN-024",
+          "explanation": "\u26a0 URGENT VISIT \u2014 patient has recurrent vomiting or diarrhoea \u2014 RED FLAG. Patient may be stopping medicine due to side effects. Bring this to the MO's attention \u2014 do not advise them to stop.",
+          "asha_id": "ASHA-TN-010",
+          "block": "Tondiarpet"
+        },
+        {
+          "rank": 5,
+          "patient_id": "NIK-100139",
+          "risk_level": "HIGH",
+          "risk_score": 0.97,
+          "days_missed": 28,
+          "explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 28 days. Bring medicine directly to the patient.",
+          "asha_id": "ASHA-TN-010",
           "block": "Tondiarpet"
         }
       ],
-      "audio_path": "data\\audio\\ASHA-TN-024.mp3",
-      "audio_available": true
+      "audio_path": null,
+      "audio_available": false
     },
-    "ASHA-TN-029": {
-      "asha_id": "ASHA-TN-029",
-      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100433: ⚠ URGENT VISIT — drug side-effects reported (grade ≥2) — patient has a pharmacological reason to stop medication. Patient may be stopping medicine due to side effects. Bring this to the MO's attention — do not advise them to stop. Please update each card after your visit.",
-      "translated_text": "காலை வணக்கம். இன்று உங்களுக்கு 1 முன்னுரிமை நோயாளி(கள்) உள்ளனர். நோயாளி NIK-100433: அவசர ⚠ வருகை - மருந்து பக்க விளைவுகள் தெரிவிக்கப்பட்டுள்ளன (தரம் ≥2) - நோயாளிக்கு மருந்துகளை நிறுத்த ஒரு மருந்தியல் காரணம் உள்ளது. பக்க விளைவுகள் காரணமாக நோயாளி மருந்தை நிறுத்தலாம். இதை MO இன் கவனத்திற்கு கொண்டு வாருங்கள் - நிறுத்துமாறு அவர்களுக்கு அறிவுறுத்த வேண்டாம். உங்கள் வருகைக்குப் பிறகு ஒவ்வொரு அட்டையையும் புதுப்பிக்கவும்.",
+    "ASHA-TN-021": {
+      "asha_id": "ASHA-TN-021",
+      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100310: \u26a0 URGENT VISIT \u2014 has not taken medicine for 70 days. Bring medicine directly to the patient. Please update each card after your visit.",
+      "translated_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100310: \u26a0 URGENT VISIT \u2014 has not taken medicine for 70 days. Bring medicine directly to the patient. Please update each card after your visit.",
       "language": "Tamil",
       "patient_count": 1,
       "visit_cards": [
         {
           "rank": 3,
-          "patient_id": "NIK-100433",
+          "patient_id": "NIK-100310",
           "risk_level": "HIGH",
           "risk_score": 0.97,
-          "days_missed": 49,
-          "explanation": "⚠ URGENT VISIT — drug side-effects reported (grade ≥2) — patient has a pharmacological reason to stop medication. Patient may be stopping medicine due to side effects. Bring this to the MO's attention — do not advise them to stop.",
-          "asha_id": "ASHA-TN-029",
+          "days_missed": 70,
+          "explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 70 days. Bring medicine directly to the patient.",
+          "asha_id": "ASHA-TN-021",
           "block": "Tondiarpet"
         }
       ],
-      "audio_path": "data\\audio\\ASHA-TN-029.mp3",
-      "audio_available": true
+      "audio_path": null,
+      "audio_available": false
     },
-    "ASHA-TN-031": {
-      "asha_id": "ASHA-TN-031",
-      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100459: ⚠ URGENT VISIT — patient has breathlessness at rest — RED FLAG: urgent visit required. Bring medicine directly to the patient. Please update each card after your visit.",
-      "translated_text": "காலை வணக்கம். இன்று உங்களுக்கு 1 முன்னுரிமை நோயாளி(கள்) உள்ளனர். நோயாளி NIK-100459: அவசர ⚠ வருகை - நோயாளிக்கு ஓய்வில் மூச்சுத் திணறல் உள்ளது - சிவப்பு கொடி: அவசர வருகை தேவை. நோயாளிக்கு நேரடியாக மருந்தைக் கொண்டு வாருங்கள். உங்கள் வருகைக்குப் பிறகு ஒவ்வொரு அட்டையையும் புதுப்பிக்கவும்.",
+    "ASHA-TN-004": {
+      "asha_id": "ASHA-TN-004",
+      "english_text": "Good morning. You have 2 priority patient(s) today. Patient NIK-100057: \u26a0 URGENT VISIT \u2014 has not taken medicine for 28 days. Bring medicine directly to the patient. Patient NIK-100047: \u26a0 URGENT VISIT \u2014 has not taken medicine for 21 days. Bring medicine directly to the patient. Please update each card after your visit.",
+      "translated_text": "Good morning. You have 2 priority patient(s) today. Patient NIK-100057: \u26a0 URGENT VISIT \u2014 has not taken medicine for 28 days. Bring medicine directly to the patient. Patient NIK-100047: \u26a0 URGENT VISIT \u2014 has not taken medicine for 21 days. Bring medicine directly to the patient. Please update each card after your visit.",
       "language": "Tamil",
-      "patient_count": 1,
+      "patient_count": 2,
       "visit_cards": [
         {
           "rank": 4,
-          "patient_id": "NIK-100459",
+          "patient_id": "NIK-100057",
           "risk_level": "HIGH",
           "risk_score": 0.97,
-          "days_missed": 7,
-          "explanation": "⚠ URGENT VISIT — patient has breathlessness at rest — RED FLAG: urgent visit required. Bring medicine directly to the patient.",
-          "asha_id": "ASHA-TN-031",
+          "days_missed": 28,
+          "explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 28 days. Bring medicine directly to the patient.",
+          "asha_id": "ASHA-TN-004",
           "block": "Tondiarpet"
-        }
-      ],
-      "audio_path": "data\\audio\\ASHA-TN-031.mp3",
-      "audio_available": true
-    },
-    "ASHA-TN-002": {
-      "asha_id": "ASHA-TN-002",
-      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100026: ⚠ URGENT VISIT — has not taken medicine for 56 days. Bring medicine directly to the patient. Please update each card after your visit.",
-      "translated_text": "காலை வணக்கம். இன்று உங்களுக்கு 1 முன்னுரிமை நோயாளி(கள்) உள்ளனர். நோயாளி NIK-100026: அவசர ⚠ வருகை - 56 நாட்களாக மருந்து எடுத்துக்கொள்ளவில்லை. நோயாளிக்கு நேரடியாக மருந்தைக் கொண்டு வாருங்கள். உங்கள் வருகைக்குப் பிறகு ஒவ்வொரு அட்டையையும் புதுப்பிக்கவும்.",
-      "language": "Tamil",
-      "patient_count": 1,
-      "visit_cards": [
+        },
         {
-          "rank": 5,
-          "patient_id": "NIK-100026",
+          "rank": 9,
+          "patient_id": "NIK-100047",
           "risk_level": "HIGH",
           "risk_score": 0.97,
-          "days_missed": 56,
-          "explanation": "⚠ URGENT VISIT — has not taken medicine for 56 days. Bring medicine directly to the patient.",
-          "asha_id": "ASHA-TN-002",
+          "days_missed": 21,
+          "explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 21 days. Bring medicine directly to the patient.",
+          "asha_id": "ASHA-TN-004",
           "block": "Tondiarpet"
         }
       ],
-      "audio_path": "data\\audio\\ASHA-TN-002.mp3",
-      "audio_available": true
+      "audio_path": null,
+      "audio_available": false
     },
-    "ASHA-TN-027": {
-      "asha_id": "ASHA-TN-027",
-      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100399: ⚠ URGENT VISIT — patient has breathlessness at rest — RED FLAG: urgent visit required. Bring medicine directly to the patient. Please update each card after your visit.",
-      "translated_text": "காலை வணக்கம். இன்று உங்களுக்கு 1 முன்னுரிமை நோயாளி(கள்) உள்ளனர். நோயாளி NIK-100399: அவசர ⚠ வருகை - நோயாளிக்கு ஓய்வில் மூச்சுத் திணறல் உள்ளது - சிவப்பு கொடி: அவசர வருகை தேவை. நோயாளிக்கு நேரடியாக மருந்தைக் கொண்டு வாருங்கள். உங்கள் வருகைக்குப் பிறகு ஒவ்வொரு அட்டையையும் புதுப்பிக்கவும்.",
+    "ASHA-TN-013": {
+      "asha_id": "ASHA-TN-013",
+      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100194: \u26a0 URGENT VISIT \u2014 has not taken medicine for 21 days. Bring medicine directly to the patient. Please update each card after your visit.",
+      "translated_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100194: \u26a0 URGENT VISIT \u2014 has not taken medicine for 21 days. Bring medicine directly to the patient. Please update each card after your visit.",
       "language": "Tamil",
       "patient_count": 1,
       "visit_cards": [
         {
           "rank": 6,
-          "patient_id": "NIK-100399",
+          "patient_id": "NIK-100194",
           "risk_level": "HIGH",
           "risk_score": 0.97,
-          "days_missed": 14,
-          "explanation": "⚠ URGENT VISIT — patient has breathlessness at rest — RED FLAG: urgent visit required. Bring medicine directly to the patient.",
-          "asha_id": "ASHA-TN-027",
+          "days_missed": 21,
+          "explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 21 days. Bring medicine directly to the patient.",
+          "asha_id": "ASHA-TN-013",
           "block": "Tondiarpet"
         }
       ],
-      "audio_path": "data\\audio\\ASHA-TN-027.mp3",
-      "audio_available": true
+      "audio_path": null,
+      "audio_available": false
     },
-    "ASHA-TN-001": {
-      "asha_id": "ASHA-TN-001",
-      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100013: ⚠ URGENT VISIT — drug side-effects reported (grade ≥2) — patient has a pharmacological reason to stop medication. Patient may be stopping medicine due to side effects. Bring this to the MO's attention — do not advise them to stop. Please update each card after your visit.",
-      "translated_text": "காலை வணக்கம். இன்று உங்களுக்கு 1 முன்னுரிமை நோயாளி(கள்) உள்ளனர். நோயாளி NIK-100013: அவசர ⚠ வருகை - மருந்து பக்க விளைவுகள் தெரிவிக்கப்பட்டுள்ளன (தரம் ≥2) - நோயாளி மருந்துகளை நிறுத்த ஒரு மருந்தியல் காரணம் உள்ளது. பக்க விளைவுகள் காரணமாக நோயாளி மருந்தை நிறுத்தலாம். இதை MO இன் கவனத்திற்கு கொண்டு வாருங்கள் - நிறுத்துமாறு அவர்களுக்கு அறிவுறுத்த வேண்டாம். உங்கள் வருகைக்குப் பிறகு ஒவ்வொரு அட்டையையும் புதுப்பிக்கவும்.",
+    "ASHA-TN-019": {
+      "asha_id": "ASHA-TN-019",
+      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100278: \u26a0 URGENT VISIT \u2014 patient has breathlessness at rest \u2014 RED FLAG: urgent visit required. Bring medicine directly to the patient. Please update each card after your visit.",
+      "translated_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100278: \u26a0 URGENT VISIT \u2014 patient has breathlessness at rest \u2014 RED FLAG: urgent visit required. Bring medicine directly to the patient. Please update each card after your visit.",
       "language": "Tamil",
       "patient_count": 1,
       "visit_cards": [
         {
           "rank": 7,
-          "patient_id": "NIK-100013",
+          "patient_id": "NIK-100278",
           "risk_level": "HIGH",
           "risk_score": 0.97,
-          "days_missed": 0,
-          "explanation": "⚠ URGENT VISIT — drug side-effects reported (grade ≥2) — patient has a pharmacological reason to stop medication. Patient may be stopping medicine due to side effects. Bring this to the MO's attention — do not advise them to stop.",
-          "asha_id": "ASHA-TN-001",
+          "days_missed": 49,
+          "explanation": "\u26a0 URGENT VISIT \u2014 patient has breathlessness at rest \u2014 RED FLAG: urgent visit required. Bring medicine directly to the patient.",
+          "asha_id": "ASHA-TN-019",
           "block": "Tondiarpet"
         }
       ],
-      "audio_path": "data\\audio\\ASHA-TN-001.mp3",
-      "audio_available": true
+      "audio_path": null,
+      "audio_available": false
     },
-    "ASHA-TN-004": {
-      "asha_id": "ASHA-TN-004",
-      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100060: ⚠ URGENT VISIT — has not taken medicine for 42 days. Bring medicine directly to the patient. Please update each card after your visit.",
-      "translated_text": "காலை வணக்கம். இன்று உங்களுக்கு 1 முன்னுரிமை நோயாளி(கள்) உள்ளனர். நோயாளி NIK-100060: அவசர ⚠ வருகை - 42 நாட்களாக மருந்து எடுத்துக்கொள்ளவில்லை. நோயாளிக்கு நேரடியாக மருந்தைக் கொண்டு வாருங்கள். உங்கள் வருகைக்குப் பிறகு ஒவ்வொரு அட்டையையும் புதுப்பிக்கவும்.",
+    "ASHA-TN-028": {
+      "asha_id": "ASHA-TN-028",
+      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100407: \u26a0 URGENT VISIT \u2014 patient has recurrent vomiting or diarrhoea \u2014 RED FLAG. Bring medicine directly to the patient. Please update each card after your visit.",
+      "translated_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100407: \u26a0 URGENT VISIT \u2014 patient has recurrent vomiting or diarrhoea \u2014 RED FLAG. Bring medicine directly to the patient. Please update each card after your visit.",
       "language": "Tamil",
       "patient_count": 1,
       "visit_cards": [
         {
           "rank": 8,
-          "patient_id": "NIK-100060",
+          "patient_id": "NIK-100407",
           "risk_level": "HIGH",
           "risk_score": 0.97,
-          "days_missed": 42,
-          "explanation": "⚠ URGENT VISIT — has not taken medicine for 42 days. Bring medicine directly to the patient.",
-          "asha_id": "ASHA-TN-004",
+          "days_missed": 21,
+          "explanation": "\u26a0 URGENT VISIT \u2014 patient has recurrent vomiting or diarrhoea \u2014 RED FLAG. Bring medicine directly to the patient.",
+          "asha_id": "ASHA-TN-028",
           "block": "Tondiarpet"
         }
       ],
-      "audio_path": "data\\audio\\ASHA-TN-004.mp3",
-      "audio_available": true
+      "audio_path": null,
+      "audio_available": false
     },
-    "ASHA-TN-006": {
-      "asha_id": "ASHA-TN-006",
-      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100084: ⚠ URGENT VISIT — patient has severe chest or abdominal pain — RED FLAG. Bring medicine directly to the patient. Please update each card after your visit.",
-      "translated_text": "காலை வணக்கம். இன்று உங்களுக்கு 1 முன்னுரிமை நோயாளி(கள்) உள்ளனர். நோயாளி NIK-100084: அவசர ⚠ வருகை - நோயாளிக்கு கடுமையான மார்பு அல்லது வயிற்று வலி உள்ளது - சிவப்பு கொடி. நோயாளிக்கு நேரடியாக மருந்தைக் கொண்டு வாருங்கள். உங்கள் வருகைக்குப் பிறகு ஒவ்வொரு அட்டையையும் புதுப்பிக்கவும்.",
-      "language": "Tamil",
-      "patient_count": 1,
-      "visit_cards": [
-        {
-          "rank": 9,
-          "patient_id": "NIK-100084",
-          "risk_level": "HIGH",
-          "risk_score": 0.97,
-          "days_missed": 49,
-          "explanation": "⚠ URGENT VISIT — patient has severe chest or abdominal pain — RED FLAG. Bring medicine directly to the patient.",
-          "asha_id": "ASHA-TN-006",
-          "block": "Tondiarpet"
-        }
-      ],
-      "audio_path": "data\\audio\\ASHA-TN-006.mp3",
-      "audio_available": true
-    },
-    "ASHA-TN-007": {
-      "asha_id": "ASHA-TN-007",
-      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100096: ⚠ URGENT VISIT — patient is confined to bed — RED FLAG: immediate referral needed. Refer to facility immediately — do not wait for next scheduled visit. Please update each card after your visit.",
-      "translated_text": "காலை வணக்கம். இன்று உங்களுக்கு 1 முன்னுரிமை நோயாளி(கள்) உள்ளனர். நோயாளி NIK-100096: அவசர ⚠ வருகை - நோயாளி படுக்கையில் அடைக்கப்பட்டுள்ளார் - சிவப்பு கொடி: உடனடி பரிந்துரை தேவை. உடனடியாக வசதியைப் பார்க்கவும் - அடுத்த திட்டமிடப்பட்ட வருகைக்காக காத்திருக்க வேண்டாம். உங்கள் வருகைக்குப் பிறகு ஒவ்வொரு அட்டையையும் புதுப்பிக்கவும்.",
+    "ASHA-TN-017": {
+      "asha_id": "ASHA-TN-017",
+      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100244: \u26a0 URGENT VISIT \u2014 has not taken medicine for 56 days. Bring medicine directly to the patient. Please update each card after your visit.",
+      "translated_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100244: \u26a0 URGENT VISIT \u2014 has not taken medicine for 56 days. Bring medicine directly to the patient. Please update each card after your visit.",
       "language": "Tamil",
       "patient_count": 1,
       "visit_cards": [
         {
           "rank": 10,
-          "patient_id": "NIK-100096",
+          "patient_id": "NIK-100244",
           "risk_level": "HIGH",
           "risk_score": 0.97,
-          "days_missed": 49,
-          "explanation": "⚠ URGENT VISIT — patient is confined to bed — RED FLAG: immediate referral needed. Refer to facility immediately — do not wait for next scheduled visit.",
-          "asha_id": "ASHA-TN-007",
+          "days_missed": 56,
+          "explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 56 days. Bring medicine directly to the patient.",
+          "asha_id": "ASHA-TN-017",
           "block": "Tondiarpet"
         }
       ],
-      "audio_path": "data\\audio\\ASHA-TN-007.mp3",
-      "audio_available": true
+      "audio_path": null,
+      "audio_available": false
     }
   },
   "systemic_alerts": [
@@ -221,7 +199,7 @@
       "avg_load_score": 0.79,
       "alert_type": "SYSTEMIC_ASHA",
       "escalate_to": "CHO CHO-TN-01",
-      "message": "TIER 2 ALERT — ASHA-TN-002 (CHO zone CHO-TN-01): 60% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-01 — do NOT send to ASHA directly."
+      "message": "TIER 2 ALERT \u2014 ASHA-TN-002 (CHO zone CHO-TN-01): 60% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-01 \u2014 do NOT send to ASHA directly."
     },
     {
       "tier": 2,
@@ -232,7 +210,7 @@
       "avg_load_score": 0.7,
       "alert_type": "SYSTEMIC_ASHA",
       "escalate_to": "CHO CHO-TN-03",
-      "message": "TIER 2 ALERT — ASHA-TN-007 (CHO zone CHO-TN-03): 60% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-03 — do NOT send to ASHA directly."
+      "message": "TIER 2 ALERT \u2014 ASHA-TN-007 (CHO zone CHO-TN-03): 60% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-03 \u2014 do NOT send to ASHA directly."
     },
     {
       "tier": 2,
@@ -243,7 +221,7 @@
       "avg_load_score": 0.74,
       "alert_type": "SYSTEMIC_ASHA",
       "escalate_to": "CHO CHO-TN-04",
-      "message": "TIER 2 ALERT — ASHA-TN-011 (CHO zone CHO-TN-04): 73% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-04 — do NOT send to ASHA directly."
+      "message": "TIER 2 ALERT \u2014 ASHA-TN-011 (CHO zone CHO-TN-04): 73% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-04 \u2014 do NOT send to ASHA directly."
     },
     {
       "tier": 2,
@@ -254,7 +232,7 @@
       "avg_load_score": 0.51,
       "alert_type": "SYSTEMIC_ASHA",
       "escalate_to": "CHO CHO-TN-05",
-      "message": "TIER 2 ALERT — ASHA-TN-014 (CHO zone CHO-TN-05): 53% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-05 — do NOT send to ASHA directly."
+      "message": "TIER 2 ALERT \u2014 ASHA-TN-014 (CHO zone CHO-TN-05): 53% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-05 \u2014 do NOT send to ASHA directly."
     },
     {
       "tier": 2,
@@ -265,7 +243,7 @@
       "avg_load_score": 0.66,
       "alert_type": "SYSTEMIC_ASHA",
       "escalate_to": "CHO CHO-TN-05",
-      "message": "TIER 2 ALERT — ASHA-TN-015 (CHO zone CHO-TN-05): 60% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-05 — do NOT send to ASHA directly."
+      "message": "TIER 2 ALERT \u2014 ASHA-TN-015 (CHO zone CHO-TN-05): 60% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-05 \u2014 do NOT send to ASHA directly."
     },
     {
       "tier": 2,
@@ -276,7 +254,7 @@
       "avg_load_score": 0.82,
       "alert_type": "SYSTEMIC_ASHA",
       "escalate_to": "CHO CHO-TN-06",
-      "message": "TIER 2 ALERT — ASHA-TN-017 (CHO zone CHO-TN-06): 67% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-06 — do NOT send to ASHA directly."
+      "message": "TIER 2 ALERT \u2014 ASHA-TN-017 (CHO zone CHO-TN-06): 67% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-06 \u2014 do NOT send to ASHA directly."
     },
     {
       "tier": 2,
@@ -287,7 +265,7 @@
       "avg_load_score": 0.57,
       "alert_type": "SYSTEMIC_ASHA",
       "escalate_to": "CHO CHO-TN-08",
-      "message": "TIER 2 ALERT — ASHA-TN-023 (CHO zone CHO-TN-08): 53% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-08 — do NOT send to ASHA directly."
+      "message": "TIER 2 ALERT \u2014 ASHA-TN-023 (CHO zone CHO-TN-08): 53% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-08 \u2014 do NOT send to ASHA directly."
     },
     {
       "tier": 2,
@@ -298,7 +276,7 @@
       "avg_load_score": 0.77,
       "alert_type": "SYSTEMIC_ASHA",
       "escalate_to": "CHO CHO-TN-09",
-      "message": "TIER 2 ALERT — ASHA-TN-027 (CHO zone CHO-TN-09): 60% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-09 — do NOT send to ASHA directly."
+      "message": "TIER 2 ALERT \u2014 ASHA-TN-027 (CHO zone CHO-TN-09): 60% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-09 \u2014 do NOT send to ASHA directly."
     },
     {
       "tier": 2,
@@ -309,7 +287,7 @@
       "avg_load_score": 0.7,
       "alert_type": "SYSTEMIC_ASHA",
       "escalate_to": "CHO CHO-TN-10",
-      "message": "TIER 2 ALERT — ASHA-TN-028 (CHO zone CHO-TN-10): 60% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-10 — do NOT send to ASHA directly."
+      "message": "TIER 2 ALERT \u2014 ASHA-TN-028 (CHO zone CHO-TN-10): 60% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-10 \u2014 do NOT send to ASHA directly."
     },
     {
       "tier": 2,
@@ -320,7 +298,7 @@
       "avg_load_score": 0.82,
       "alert_type": "SYSTEMIC_ASHA",
       "escalate_to": "CHO CHO-TN-11",
-      "message": "TIER 2 ALERT — ASHA-TN-031 (CHO zone CHO-TN-11): 60% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-11 — do NOT send to ASHA directly."
+      "message": "TIER 2 ALERT \u2014 ASHA-TN-031 (CHO zone CHO-TN-11): 60% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-11 \u2014 do NOT send to ASHA directly."
     },
     {
       "tier": 2,
@@ -331,7 +309,7 @@
       "avg_load_score": 0.61,
       "alert_type": "SYSTEMIC_ASHA",
       "escalate_to": "CHO CHO-TN-11",
-      "message": "TIER 2 ALERT — ASHA-TN-032 (CHO zone CHO-TN-11): 53% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-11 — do NOT send to ASHA directly."
+      "message": "TIER 2 ALERT \u2014 ASHA-TN-032 (CHO zone CHO-TN-11): 53% of 15 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-11 \u2014 do NOT send to ASHA directly."
     },
     {
       "tier": 2,
@@ -342,7 +320,7 @@
       "avg_load_score": 0.433,
       "alert_type": "SYSTEMIC_ASHA",
       "escalate_to": "CHO CHO-TN-11",
-      "message": "TIER 2 ALERT — ASHA-TN-034 (CHO zone CHO-TN-11): 60% of 5 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-11 — do NOT send to ASHA directly."
+      "message": "TIER 2 ALERT \u2014 ASHA-TN-034 (CHO zone CHO-TN-11): 60% of 5 patients missed doses. Possible worker absence or local disruption. Escalate to CHO CHO-TN-11 \u2014 do NOT send to ASHA directly."
     },
     {
       "tier": 3,
@@ -354,7 +332,7 @@
       "fail_rate_pct": 66.7,
       "alert_type": "SYSTEMIC_BLOCK",
       "escalate_to": "Medical Officer (PHC)",
-      "message": "TIER 3 ALERT — CHO zone CHO-TN-05: 2 of 3 ASHAs showing systemic failures. Likely block-level disruption (drug stockout, clinic closure). Escalate to Medical Officer at PHC immediately."
+      "message": "TIER 3 ALERT \u2014 CHO zone CHO-TN-05: 2 of 3 ASHAs showing systemic failures. Likely block-level disruption (drug stockout, clinic closure). Escalate to Medical Officer at PHC immediately."
     },
     {
       "tier": 3,
@@ -367,7 +345,7 @@
       "fail_rate_pct": 75.0,
       "alert_type": "SYSTEMIC_BLOCK",
       "escalate_to": "Medical Officer (PHC)",
-      "message": "TIER 3 ALERT — CHO zone CHO-TN-11: 3 of 4 ASHAs showing systemic failures. Likely block-level disruption (drug stockout, clinic closure). Escalate to Medical Officer at PHC immediately."
+      "message": "TIER 3 ALERT \u2014 CHO zone CHO-TN-11: 3 of 4 ASHAs showing systemic failures. Likely block-level disruption (drug stockout, clinic closure). Escalate to Medical Officer at PHC immediately."
     }
   ]
 }

@@ -2,288 +2,108 @@
   "visit_list": [
     {
       "rank": 1,
-      "patient_id": "NIK-100369",
+      "patient_id": "NIK-100397",
       "risk_score": 0.97,
       "risk_level": "HIGH",
-      "treatment_week": 60,
+      "treatment_week": 49,
       "phase": "Continuation",
       "days_missed": 49,
-      "asha_id": "ASHA-TN-025",
-      "block": "Tondiarpet",
-      "top_factors": {
-        "49 days since last dose (CRITICAL)": 6.5,
-        "Divorced/separated": 3.8,
-        "Prior LTFU history (strongest predictor)": 3.0
-      },
-      "score_composition": {
-        "composite_score": 0.97,
-        "primary_risk": 0.9849,
-        "tgn_weight": 0.9,
-        "bbn_weight": 0.1,
-        "asha_weight": 0.0,
-        "asha_load_uplift": -0.0149,
-        "data_source": "blend_90pct_tgn",
-        "asha_load_score": 0.61,
-        "bbn_status": "active"
-      },
-      "asha_explanation": "\u26a0 URGENT VISIT \u2014 patient is confined to bed \u2014 RED FLAG: immediate referral needed. Refer to facility immediately \u2014 do not wait for next scheduled visit.",
-      "officer_explanation": "**Risk:** HIGH \u00b7 **Score:** 0.970 \u00b7 **Week:** 60 (?)\n\n**Days since last dose:** 49 \u00b7 **HIGH threshold this week:** >0.55\n\n**Primary driver:** 49 days since last dose (CRITICAL) (OR 6.50\u00d7) \u00b7 Secondary: Divorced/separated (OR 3.80\u00d7)\n\n**Score breakdown:** TGN 90% \u00b7 BBN prior 10%\n\n**Source: Blend** (90% TGN / 10% BBN \u2014 confidence ramp in progress)\n\n**Clinical flags:** None",
-      "safety_passed": true
-    },
-    {
-      "rank": 2,
-      "patient_id": "NIK-100356",
-      "risk_score": 0.97,
-      "risk_level": "HIGH",
-      "treatment_week": 39,
-      "phase": "Continuation",
-      "days_missed": 49,
-      "asha_id": "ASHA-TN-024",
+      "asha_id": "ASHA-TN-027",
       "block": "Tondiarpet",
       "top_factors": {
         "49 days since last dose (CRITICAL)": 6.5,
         "Drug-resistant TB": 2.8,
-        "Prior TB history": 2.1
+        "Distance 10.5km (>10km)": 2.1
       },
       "score_composition": {
         "composite_score": 0.97,
-        "primary_risk": 0.9548,
+        "primary_risk": 0.976,
         "tgn_weight": 0.9,
         "bbn_weight": 0.1,
         "asha_weight": 0.0,
-        "asha_load_uplift": 0.0152,
-        "data_source": "blend_90pct_tgn",
-        "asha_load_score": 0.53,
-        "bbn_status": "active"
-      },
-      "asha_explanation": "\u26a0 URGENT VISIT \u2014 drug side-effects reported (grade \u22652) \u2014 patient has a pharmacological reason to stop medication. Patient may be stopping medicine due to side effects. Bring this to the MO's attention \u2014 do not advise them to stop.",
-      "officer_explanation": "**Risk:** HIGH \u00b7 **Score:** 0.970 \u00b7 **Week:** 39 (?)\n\n**Days since last dose:** 49 \u00b7 **HIGH threshold this week:** >0.55\n\n**Primary driver:** 49 days since last dose (CRITICAL) (OR 6.50\u00d7) \u00b7 Secondary: Drug-resistant TB (OR 2.80\u00d7)\n\n**Score breakdown:** TGN 90% \u00b7 BBN prior 10%\n\n**Source: Blend** (90% TGN / 10% BBN \u2014 confidence ramp in progress)\n\n**Clinical flags:** \u26a0 ADR grade \u22652 recorded \u2014 pharmacological dropout risk",
-      "safety_passed": true
-    },
-    {
-      "rank": 3,
-      "patient_id": "NIK-100433",
-      "risk_score": 0.97,
-      "risk_level": "HIGH",
-      "treatment_week": 25,
-      "phase": "Continuation",
-      "days_missed": 49,
-      "asha_id": "ASHA-TN-029",
-      "block": "Tondiarpet",
-      "top_factors": {
-        "49 days since last dose (CRITICAL)": 6.5,
-        "Divorced/separated": 3.8,
-        "Prior LTFU history (strongest predictor)": 3.0
-      },
-      "score_composition": {
-        "composite_score": 0.97,
-        "primary_risk": 0.9887,
-        "tgn_weight": 0.9,
-        "bbn_weight": 0.1,
-        "asha_weight": 0.0,
-        "asha_load_uplift": -0.0187,
-        "data_source": "blend_90pct_tgn",
-        "asha_load_score": 0.59,
-        "bbn_status": "active"
-      },
-      "asha_explanation": "\u26a0 URGENT VISIT \u2014 drug side-effects reported (grade \u22652) \u2014 patient has a pharmacological reason to stop medication. Patient may be stopping medicine due to side effects. Bring this to the MO's attention \u2014 do not advise them to stop.",
-      "officer_explanation": "**Risk:** HIGH \u00b7 **Score:** 0.970 \u00b7 **Week:** 25 (?)\n\n**Days since last dose:** 49 \u00b7 **HIGH threshold this week:** >0.55\n\n**Primary driver:** 49 days since last dose (CRITICAL) (OR 6.50\u00d7) \u00b7 Secondary: Divorced/separated (OR 3.80\u00d7)\n\n**Score breakdown:** TGN 90% \u00b7 BBN prior 10%\n\n**Source: Blend** (90% TGN / 10% BBN \u2014 confidence ramp in progress)\n\n**Clinical flags:** \u26a0 ADR grade \u22652 recorded \u2014 pharmacological dropout risk",
-      "safety_passed": true
-    },
-    {
-      "rank": 4,
-      "patient_id": "NIK-100459",
-      "risk_score": 0.97,
-      "risk_level": "HIGH",
-      "treatment_week": 24,
-      "phase": "Continuation",
-      "days_missed": 7,
-      "asha_id": "ASHA-TN-031",
-      "block": "Tondiarpet",
-      "top_factors": {
-        "7 days since last dose": 3.2,
-        "Prior LTFU history (strongest predictor)": 3.0,
-        "Age 31 (high-risk group 20-39)": 2.07
-      },
-      "score_composition": {
-        "composite_score": 0.97,
-        "primary_risk": 0.9413,
-        "tgn_weight": 0.9,
-        "bbn_weight": 0.1,
-        "asha_weight": 0.0,
-        "asha_load_uplift": 0.0287,
-        "data_source": "blend_90pct_tgn",
-        "asha_load_score": 0.82,
-        "bbn_status": "active"
-      },
-      "asha_explanation": "\u26a0 URGENT VISIT \u2014 patient has breathlessness at rest \u2014 RED FLAG: urgent visit required. Bring medicine directly to the patient.",
-      "officer_explanation": "**Risk:** HIGH \u00b7 **Score:** 0.970 \u00b7 **Week:** 24 (?)\n\n**Days since last dose:** 7 \u00b7 **HIGH threshold this week:** >0.55\n\n**Primary driver:** 7 days since last dose (OR 3.20\u00d7) \u00b7 Secondary: Prior LTFU history (strongest predictor) (OR 3.00\u00d7)\n\n**Score breakdown:** TGN 90% \u00b7 BBN prior 10%\n\n**Source: Blend** (90% TGN / 10% BBN \u2014 confidence ramp in progress)\n\n**Clinical flags:** None",
-      "safety_passed": true
-    },
-    {
-      "rank": 5,
-      "patient_id": "NIK-100026",
-      "risk_score": 0.97,
-      "risk_level": "HIGH",
-      "treatment_week": 22,
-      "phase": "Continuation",
-      "days_missed": 56,
-      "asha_id": "ASHA-TN-002",
-      "block": "Tondiarpet",
-      "top_factors": {
-        "56 days since last dose (CRITICAL)": 6.5,
-        "Prior LTFU history (strongest predictor)": 3.0,
-        "Drug-resistant TB": 2.8
-      },
-      "score_composition": {
-        "composite_score": 0.97,
-        "primary_risk": 0.9512,
-        "tgn_weight": 0.9,
-        "bbn_weight": 0.1,
-        "asha_weight": 0.0,
-        "asha_load_uplift": 0.0188,
-        "data_source": "blend_90pct_tgn",
-        "asha_load_score": 0.79,
-        "bbn_status": "active"
-      },
-      "asha_explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 56 days. Bring medicine directly to the patient.",
-      "officer_explanation": "**Risk:** HIGH \u00b7 **Score:** 0.970 \u00b7 **Week:** 22 (?)\n\n**Days since last dose:** 56 \u00b7 **HIGH threshold this week:** >0.55\n\n**Primary driver:** 56 days since last dose (CRITICAL) (OR 6.50\u00d7) \u00b7 Secondary: Prior LTFU history (strongest predictor) (OR 3.00\u00d7)\n\n**Score breakdown:** TGN 90% \u00b7 BBN prior 10%\n\n**Source: Blend** (90% TGN / 10% BBN \u2014 confidence ramp in progress)\n\n**Clinical flags:** None",
-      "safety_passed": true
-    },
-    {
-      "rank": 6,
-      "patient_id": "NIK-100399",
-      "risk_score": 0.97,
-      "risk_level": "HIGH",
-      "treatment_week": 21,
-      "phase": "Continuation",
-      "days_missed": 14,
-      "asha_id": "ASHA-TN-027",
-      "block": "Tondiarpet",
-      "top_factors": {
-        "14 days since last dose (CRITICAL)": 6.5,
-        "Prior LTFU history (strongest predictor)": 3.0,
-        "Age 28 (high-risk group 20-39)": 2.07
-      },
-      "score_composition": {
-        "composite_score": 0.97,
-        "primary_risk": 0.9752,
-        "tgn_weight": 0.9,
-        "bbn_weight": 0.1,
-        "asha_weight": 0.0,
-        "asha_load_uplift": -0.0052,
+        "asha_load_uplift": -0.006,
         "data_source": "blend_90pct_tgn",
         "asha_load_score": 0.77,
         "bbn_status": "active"
       },
-      "asha_explanation": "\u26a0 URGENT VISIT \u2014 patient has breathlessness at rest \u2014 RED FLAG: urgent visit required. Bring medicine directly to the patient.",
-      "officer_explanation": "**Risk:** HIGH \u00b7 **Score:** 0.970 \u00b7 **Week:** 21 (?)\n\n**Days since last dose:** 14 \u00b7 **HIGH threshold this week:** >0.55\n\n**Primary driver:** 14 days since last dose (CRITICAL) (OR 6.50\u00d7) \u00b7 Secondary: Prior LTFU history (strongest predictor) (OR 3.00\u00d7)\n\n**Score breakdown:** TGN 90% \u00b7 BBN prior 10%\n\n**Source: Blend** (90% TGN / 10% BBN \u2014 confidence ramp in progress)\n\n**Clinical flags:** None",
+      "asha_explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 49 days. Bring medicine directly to the patient.",
+      "officer_explanation": "**Risk:** HIGH \u00b7 **Score:** 0.970 \u00b7 **Week:** 49 (?)\n\n**Days since last dose:** 49 \u00b7 **HIGH threshold this week:** >0.55\n\n**Primary driver:** 49 days since last dose (CRITICAL) (OR 6.50\u00d7) \u00b7 Secondary: Drug-resistant TB (OR 2.80\u00d7)\n\n**Score breakdown:** TGN 90% \u00b7 BBN prior 10%\n\n**Source: Blend** (90% TGN / 10% BBN \u2014 confidence ramp in progress)\n\n**Clinical flags:** None",
       "safety_passed": true
     },
     {
-      "rank": 7,
-      "patient_id": "NIK-100013",
+      "rank": 2,
+      "patient_id": "NIK-100137",
       "risk_score": 0.97,
       "risk_level": "HIGH",
-      "treatment_week": 20,
+      "treatment_week": 48,
       "phase": "Continuation",
-      "days_missed": 0,
-      "asha_id": "ASHA-TN-001",
+      "days_missed": 49,
+      "asha_id": "ASHA-TN-010",
       "block": "Tondiarpet",
       "top_factors": {
-        "Divorced/separated": 3.8,
-        "Prior LTFU history (strongest predictor)": 3.0,
-        "Drug-resistant TB": 2.8
+        "49 days since last dose (CRITICAL)": 6.5,
+        "Drug-resistant TB": 2.8,
+        "Age 38 (high-risk group 20-39)": 2.07
       },
       "score_composition": {
         "composite_score": 0.97,
-        "primary_risk": 0.9874,
+        "primary_risk": 0.9894,
         "tgn_weight": 0.9,
         "bbn_weight": 0.1,
         "asha_weight": 0.0,
-        "asha_load_uplift": -0.0174,
+        "asha_load_uplift": -0.0194,
         "data_source": "blend_90pct_tgn",
-        "asha_load_score": 0.49,
+        "asha_load_score": 0.64,
         "bbn_status": "active"
       },
-      "asha_explanation": "\u26a0 URGENT VISIT \u2014 drug side-effects reported (grade \u22652) \u2014 patient has a pharmacological reason to stop medication. Patient may be stopping medicine due to side effects. Bring this to the MO's attention \u2014 do not advise them to stop.",
-      "officer_explanation": "**Risk:** HIGH \u00b7 **Score:** 0.970 \u00b7 **Week:** 20 (?)\n\n**Days since last dose:** 0 \u00b7 **HIGH threshold this week:** >0.55\n\n**Primary driver:** Divorced/separated (OR 3.80\u00d7) \u00b7 Secondary: Prior LTFU history (strongest predictor) (OR 3.00\u00d7)\n\n**Score breakdown:** TGN 90% \u00b7 BBN prior 10%\n\n**Source: Blend** (90% TGN / 10% BBN \u2014 confidence ramp in progress)\n\n**Clinical flags:** \u26a0 ADR grade \u22652 recorded \u2014 pharmacological dropout risk",
+      "asha_explanation": "\u26a0 URGENT VISIT \u2014 patient has recurrent vomiting or diarrhoea \u2014 RED FLAG. Patient may be stopping medicine due to side effects. Bring this to the MO's attention \u2014 do not advise them to stop.",
+      "officer_explanation": "**Risk:** HIGH \u00b7 **Score:** 0.970 \u00b7 **Week:** 48 (?)\n\n**Days since last dose:** 49 \u00b7 **HIGH threshold this week:** >0.55\n\n**Primary driver:** 49 days since last dose (CRITICAL) (OR 6.50\u00d7) \u00b7 Secondary: Drug-resistant TB (OR 2.80\u00d7)\n\n**Score breakdown:** TGN 90% \u00b7 BBN prior 10%\n\n**Source: Blend** (90% TGN / 10% BBN \u2014 confidence ramp in progress)\n\n**Clinical flags:** \u26a0 ADR grade \u22652 recorded \u2014 pharmacological dropout risk",
       "safety_passed": true
     },
     {
-      "rank": 8,
-      "patient_id": "NIK-100060",
+      "rank": 3,
+      "patient_id": "NIK-100310",
       "risk_score": 0.97,
       "risk_level": "HIGH",
-      "treatment_week": 19,
+      "treatment_week": 46,
       "phase": "Continuation",
-      "days_missed": 42,
-      "asha_id": "ASHA-TN-004",
+      "days_missed": 70,
+      "asha_id": "ASHA-TN-021",
       "block": "Tondiarpet",
       "top_factors": {
-        "42 days since last dose (CRITICAL)": 6.5,
-        "Prior LTFU history (strongest predictor)": 3.0,
+        "70 days since last dose (CRITICAL)": 6.5,
+        "Drug-resistant TB": 2.8,
         "Age 31 (high-risk group 20-39)": 2.07
       },
       "score_composition": {
         "composite_score": 0.97,
-        "primary_risk": 0.9542,
+        "primary_risk": 0.9483,
         "tgn_weight": 0.9,
         "bbn_weight": 0.1,
         "asha_weight": 0.0,
-        "asha_load_uplift": 0.0158,
+        "asha_load_uplift": 0.0217,
         "data_source": "blend_90pct_tgn",
         "asha_load_score": 0.69,
         "bbn_status": "active"
       },
-      "asha_explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 42 days. Bring medicine directly to the patient.",
-      "officer_explanation": "**Risk:** HIGH \u00b7 **Score:** 0.970 \u00b7 **Week:** 19 (?)\n\n**Days since last dose:** 42 \u00b7 **HIGH threshold this week:** >0.55\n\n**Primary driver:** 42 days since last dose (CRITICAL) (OR 6.50\u00d7) \u00b7 Secondary: Prior LTFU history (strongest predictor) (OR 3.00\u00d7)\n\n**Score breakdown:** TGN 90% \u00b7 BBN prior 10%\n\n**Source: Blend** (90% TGN / 10% BBN \u2014 confidence ramp in progress)\n\n**Clinical flags:** None",
+      "asha_explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 70 days. Bring medicine directly to the patient.",
+      "officer_explanation": "**Risk:** HIGH \u00b7 **Score:** 0.970 \u00b7 **Week:** 46 (?)\n\n**Days since last dose:** 70 \u00b7 **HIGH threshold this week:** >0.55\n\n**Primary driver:** 70 days since last dose (CRITICAL) (OR 6.50\u00d7) \u00b7 Secondary: Drug-resistant TB (OR 2.80\u00d7)\n\n**Score breakdown:** TGN 90% \u00b7 BBN prior 10%\n\n**Source: Blend** (90% TGN / 10% BBN \u2014 confidence ramp in progress)\n\n**Clinical flags:** None",
       "safety_passed": true
     },
     {
-      "rank": 9,
-      "patient_id": "NIK-100084",
+      "rank": 4,
+      "patient_id": "NIK-100057",
       "risk_score": 0.97,
       "risk_level": "HIGH",
-      "treatment_week": 18,
+      "treatment_week": 32,
       "phase": "Continuation",
-      "days_missed": 49,
-      "asha_id": "ASHA-TN-006",
+      "days_missed": 28,
+      "asha_id": "ASHA-TN-004",
       "block": "Tondiarpet",
       "top_factors": {
-        "49 days since last dose (CRITICAL)": 6.5,
-        "Prior LTFU history (strongest predictor)": 3.0,
-        "Age 28 (high-risk group 20-39)": 2.07
-      },
-      "score_composition": {
-        "composite_score": 0.97,
-        "primary_risk": 0.9816,
-        "tgn_weight": 0.9,
-        "bbn_weight": 0.1,
-        "asha_weight": 0.0,
-        "asha_load_uplift": -0.0116,
-        "data_source": "blend_90pct_tgn",
-        "asha_load_score": 0.68,
-        "bbn_status": "active"
-      },
-      "asha_explanation": "\u26a0 URGENT VISIT \u2014 patient has severe chest or abdominal pain \u2014 RED FLAG. Bring medicine directly to the patient.",
-      "officer_explanation": "**Risk:** HIGH \u00b7 **Score:** 0.970 \u00b7 **Week:** 18 (?)\n\n**Days since last dose:** 49 \u00b7 **HIGH threshold this week:** >0.55\n\n**Primary driver:** 49 days since last dose (CRITICAL) (OR 6.50\u00d7) \u00b7 Secondary: Prior LTFU history (strongest predictor) (OR 3.00\u00d7)\n\n**Score breakdown:** TGN 90% \u00b7 BBN prior 10%\n\n**Source: Blend** (90% TGN / 10% BBN \u2014 confidence ramp in progress)\n\n**Clinical flags:** None",
-      "safety_passed": true
-    },
-    {
-      "rank": 10,
-      "patient_id": "NIK-100096",
-      "risk_score": 0.97,
-      "risk_level": "HIGH",
-      "treatment_week": 16,
-      "phase": "Continuation",
-      "days_missed": 49,
-      "asha_id": "ASHA-TN-007",
-      "block": "Tondiarpet",
-      "top_factors": {
-        "49 days since last dose (CRITICAL)": 6.5,
-        "Divorced/separated": 3.8,
-        "Age 28 (high-risk group 20-39)": 2.07
+        "28 days since last dose (CRITICAL)": 6.5,
+        "Drug-resistant TB": 2.8,
+        "Low education": 1.55
       },
       "score_composition": {
         "composite_score": 0.97,
@@ -293,15 +113,306 @@
         "asha_weight": 0.0,
         "asha_load_uplift": -0.0104,
         "data_source": "blend_90pct_tgn",
+        "asha_load_score": 0.69,
+        "bbn_status": "active"
+      },
+      "asha_explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 28 days. Bring medicine directly to the patient.",
+      "officer_explanation": "**Risk:** HIGH \u00b7 **Score:** 0.970 \u00b7 **Week:** 32 (?)\n\n**Days since last dose:** 28 \u00b7 **HIGH threshold this week:** >0.55\n\n**Primary driver:** 28 days since last dose (CRITICAL) (OR 6.50\u00d7) \u00b7 Secondary: Drug-resistant TB (OR 2.80\u00d7)\n\n**Score breakdown:** TGN 90% \u00b7 BBN prior 10%\n\n**Source: Blend** (90% TGN / 10% BBN \u2014 confidence ramp in progress)\n\n**Clinical flags:** None",
+      "safety_passed": true
+    },
+    {
+      "rank": 5,
+      "patient_id": "NIK-100139",
+      "risk_score": 0.97,
+      "risk_level": "HIGH",
+      "treatment_week": 26,
+      "phase": "Continuation",
+      "days_missed": 28,
+      "asha_id": "ASHA-TN-010",
+      "block": "Tondiarpet",
+      "top_factors": {
+        "28 days since last dose (CRITICAL)": 6.5,
+        "Low BMI at diagnosis (14.0 \u2014 RATIONS trial)": 1.85,
+        "Not enrolled in Nikshay Poshan Yojana": 1.45
+      },
+      "score_composition": {
+        "composite_score": 0.97,
+        "primary_risk": 0.9446,
+        "tgn_weight": 0.9,
+        "bbn_weight": 0.1,
+        "asha_weight": 0.0,
+        "asha_load_uplift": 0.0254,
+        "data_source": "blend_90pct_tgn",
+        "asha_load_score": 0.64,
+        "bbn_status": "active"
+      },
+      "asha_explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 28 days. Bring medicine directly to the patient.",
+      "officer_explanation": "**Risk:** HIGH \u00b7 **Score:** 0.970 \u00b7 **Week:** 26 (?)\n\n**Days since last dose:** 28 \u00b7 **HIGH threshold this week:** >0.55\n\n**Primary driver:** 28 days since last dose (CRITICAL) (OR 6.50\u00d7) \u00b7 Secondary: Low BMI at diagnosis (14.0 \u2014 RATIONS trial) (OR 1.85\u00d7)\n\n**Score breakdown:** TGN 90% \u00b7 BBN prior 10%\n\n**Source: Blend** (90% TGN / 10% BBN \u2014 confidence ramp in progress)\n\n**Clinical flags:** None",
+      "safety_passed": true
+    },
+    {
+      "rank": 6,
+      "patient_id": "NIK-100194",
+      "risk_score": 0.97,
+      "risk_level": "HIGH",
+      "treatment_week": 26,
+      "phase": "Continuation",
+      "days_missed": 21,
+      "asha_id": "ASHA-TN-013",
+      "block": "Tondiarpet",
+      "top_factors": {
+        "21 days since last dose (CRITICAL)": 6.5,
+        "Divorced/separated": 3.8,
+        "Drug use": 2.4
+      },
+      "score_composition": {
+        "composite_score": 0.97,
+        "primary_risk": 0.9957,
+        "tgn_weight": 0.9,
+        "bbn_weight": 0.1,
+        "asha_weight": 0.0,
+        "asha_load_uplift": -0.0257,
+        "data_source": "blend_90pct_tgn",
+        "asha_load_score": 0.61,
+        "bbn_status": "active"
+      },
+      "asha_explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 21 days. Bring medicine directly to the patient.",
+      "officer_explanation": "**Risk:** HIGH \u00b7 **Score:** 0.970 \u00b7 **Week:** 26 (?)\n\n**Days since last dose:** 21 \u00b7 **HIGH threshold this week:** >0.55\n\n**Primary driver:** 21 days since last dose (CRITICAL) (OR 6.50\u00d7) \u00b7 Secondary: Divorced/separated (OR 3.80\u00d7)\n\n**Score breakdown:** TGN 90% \u00b7 BBN prior 10%\n\n**Source: Blend** (90% TGN / 10% BBN \u2014 confidence ramp in progress)\n\n**Clinical flags:** None",
+      "safety_passed": true
+    },
+    {
+      "rank": 7,
+      "patient_id": "NIK-100278",
+      "risk_score": 0.97,
+      "risk_level": "HIGH",
+      "treatment_week": 26,
+      "phase": "Continuation",
+      "days_missed": 49,
+      "asha_id": "ASHA-TN-019",
+      "block": "Tondiarpet",
+      "top_factors": {
+        "49 days since last dose (CRITICAL)": 6.5,
+        "Drug use": 2.4,
+        "Age 35 (high-risk group 20-39)": 2.07
+      },
+      "score_composition": {
+        "composite_score": 0.97,
+        "primary_risk": 0.9883,
+        "tgn_weight": 0.9,
+        "bbn_weight": 0.1,
+        "asha_weight": 0.0,
+        "asha_load_uplift": -0.0183,
+        "data_source": "blend_90pct_tgn",
+        "asha_load_score": 0.65,
+        "bbn_status": "active"
+      },
+      "asha_explanation": "\u26a0 URGENT VISIT \u2014 patient has breathlessness at rest \u2014 RED FLAG: urgent visit required. Bring medicine directly to the patient.",
+      "officer_explanation": "**Risk:** HIGH \u00b7 **Score:** 0.970 \u00b7 **Week:** 26 (?)\n\n**Days since last dose:** 49 \u00b7 **HIGH threshold this week:** >0.55\n\n**Primary driver:** 49 days since last dose (CRITICAL) (OR 6.50\u00d7) \u00b7 Secondary: Drug use (OR 2.40\u00d7)\n\n**Score breakdown:** TGN 90% \u00b7 BBN prior 10%\n\n**Source: Blend** (90% TGN / 10% BBN \u2014 confidence ramp in progress)\n\n**Clinical flags:** None",
+      "safety_passed": true
+    },
+    {
+      "rank": 8,
+      "patient_id": "NIK-100407",
+      "risk_score": 0.97,
+      "risk_level": "HIGH",
+      "treatment_week": 26,
+      "phase": "Continuation",
+      "days_missed": 21,
+      "asha_id": "ASHA-TN-028",
+      "block": "Tondiarpet",
+      "top_factors": {
+        "21 days since last dose (CRITICAL)": 6.5,
+        "Distance 11.0km (>10km)": 2.1,
+        "Male sex": 1.29
+      },
+      "score_composition": {
+        "composite_score": 0.97,
+        "primary_risk": 0.948,
+        "tgn_weight": 0.9,
+        "bbn_weight": 0.1,
+        "asha_weight": 0.0,
+        "asha_load_uplift": 0.022,
+        "data_source": "blend_90pct_tgn",
         "asha_load_score": 0.7,
         "bbn_status": "active"
       },
-      "asha_explanation": "\u26a0 URGENT VISIT \u2014 patient is confined to bed \u2014 RED FLAG: immediate referral needed. Refer to facility immediately \u2014 do not wait for next scheduled visit.",
-      "officer_explanation": "**Risk:** HIGH \u00b7 **Score:** 0.970 \u00b7 **Week:** 16 (?)\n\n**Days since last dose:** 49 \u00b7 **HIGH threshold this week:** >0.65\n\n**Primary driver:** 49 days since last dose (CRITICAL) (OR 6.50\u00d7) \u00b7 Secondary: Divorced/separated (OR 3.80\u00d7)\n\n**Score breakdown:** TGN 90% \u00b7 BBN prior 10%\n\n**Source: Blend** (90% TGN / 10% BBN \u2014 confidence ramp in progress)\n\n**Clinical flags:** \u26a0 ADR grade \u22652 recorded \u2014 pharmacological dropout risk",
+      "asha_explanation": "\u26a0 URGENT VISIT \u2014 patient has recurrent vomiting or diarrhoea \u2014 RED FLAG. Bring medicine directly to the patient.",
+      "officer_explanation": "**Risk:** HIGH \u00b7 **Score:** 0.970 \u00b7 **Week:** 26 (?)\n\n**Days since last dose:** 21 \u00b7 **HIGH threshold this week:** >0.55\n\n**Primary driver:** 21 days since last dose (CRITICAL) (OR 6.50\u00d7) \u00b7 Secondary: Distance 11.0km (>10km) (OR 2.10\u00d7)\n\n**Score breakdown:** TGN 90% \u00b7 BBN prior 10%\n\n**Source: Blend** (90% TGN / 10% BBN \u2014 confidence ramp in progress)\n\n**Clinical flags:** None",
+      "safety_passed": true
+    },
+    {
+      "rank": 9,
+      "patient_id": "NIK-100047",
+      "risk_score": 0.97,
+      "risk_level": "HIGH",
+      "treatment_week": 25,
+      "phase": "Continuation",
+      "days_missed": 21,
+      "asha_id": "ASHA-TN-004",
+      "block": "Tondiarpet",
+      "top_factors": {
+        "21 days since last dose (CRITICAL)": 6.5,
+        "Prior LTFU history (strongest predictor)": 3.0,
+        "Low education": 1.55
+      },
+      "score_composition": {
+        "composite_score": 0.97,
+        "primary_risk": 0.9736,
+        "tgn_weight": 0.9,
+        "bbn_weight": 0.1,
+        "asha_weight": 0.0,
+        "asha_load_uplift": -0.0036,
+        "data_source": "blend_90pct_tgn",
+        "asha_load_score": 0.69,
+        "bbn_status": "active"
+      },
+      "asha_explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 21 days. Bring medicine directly to the patient.",
+      "officer_explanation": "**Risk:** HIGH \u00b7 **Score:** 0.970 \u00b7 **Week:** 25 (?)\n\n**Days since last dose:** 21 \u00b7 **HIGH threshold this week:** >0.55\n\n**Primary driver:** 21 days since last dose (CRITICAL) (OR 6.50\u00d7) \u00b7 Secondary: Prior LTFU history (strongest predictor) (OR 3.00\u00d7)\n\n**Score breakdown:** TGN 90% \u00b7 BBN prior 10%\n\n**Source: Blend** (90% TGN / 10% BBN \u2014 confidence ramp in progress)\n\n**Clinical flags:** None",
+      "safety_passed": true
+    },
+    {
+      "rank": 10,
+      "patient_id": "NIK-100244",
+      "risk_score": 0.97,
+      "risk_level": "HIGH",
+      "treatment_week": 25,
+      "phase": "Continuation",
+      "days_missed": 56,
+      "asha_id": "ASHA-TN-017",
+      "block": "Tondiarpet",
+      "top_factors": {
+        "56 days since last dose (CRITICAL)": 6.5,
+        "Low BMI at diagnosis (16.8 \u2014 RATIONS trial)": 1.85,
+        "Low education": 1.55
+      },
+      "score_composition": {
+        "composite_score": 0.97,
+        "primary_risk": 0.9391,
+        "tgn_weight": 0.9,
+        "bbn_weight": 0.1,
+        "asha_weight": 0.0,
+        "asha_load_uplift": 0.0309,
+        "data_source": "blend_90pct_tgn",
+        "asha_load_score": 0.82,
+        "bbn_status": "active"
+      },
+      "asha_explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 56 days. Bring medicine directly to the patient.",
+      "officer_explanation": "**Risk:** HIGH \u00b7 **Score:** 0.970 \u00b7 **Week:** 25 (?)\n\n**Days since last dose:** 56 \u00b7 **HIGH threshold this week:** >0.55\n\n**Primary driver:** 56 days since last dose (CRITICAL) (OR 6.50\u00d7) \u00b7 Secondary: Low BMI at diagnosis (16.8 \u2014 RATIONS trial) (OR 1.85\u00d7)\n\n**Score breakdown:** TGN 90% \u00b7 BBN prior 10%\n\n**Source: Blend** (90% TGN / 10% BBN \u2014 confidence ramp in progress)\n\n**Clinical flags:** None",
       "safety_passed": true
     }
   ],
-  "screening_list": [],
+  "screening_list": [
+    {
+      "contact_id": "CONTACT_Panini_Nanda",
+      "name": "Panini Nanda",
+      "age": 68,
+      "rel": "Household",
+      "vulnerability": 1.0,
+      "source_patient": "NIK-100069",
+      "screening_priority": 0.00727879,
+      "screening_reason": "Screen Panini Nanda (age 68, Household) \u2014 unscreened contact of a high-risk patient.",
+      "rank": 1
+    },
+    {
+      "contact_id": "CONTACT_Aarna_Bora",
+      "name": "Aarna Bora",
+      "age": 9,
+      "rel": "Household",
+      "vulnerability": 1.0,
+      "source_patient": "NIK-100119",
+      "screening_priority": 0.00727875,
+      "screening_reason": "Screen Aarna Bora (age 9, Household) \u2014 unscreened contact of a high-risk patient.",
+      "rank": 2
+    },
+    {
+      "contact_id": "CONTACT_Rishi_Sankaran",
+      "name": "Rishi Sankaran",
+      "age": 74,
+      "rel": "Household",
+      "vulnerability": 1.0,
+      "source_patient": "NIK-100261",
+      "screening_priority": 0.00727875,
+      "screening_reason": "Screen Rishi Sankaran (age 74, Household) \u2014 unscreened contact of a high-risk patient.",
+      "rank": 3
+    },
+    {
+      "contact_id": "CONTACT_Vansha_Ramachandran",
+      "name": "Vansha Ramachandran",
+      "age": 70,
+      "rel": "Household",
+      "vulnerability": 1.0,
+      "source_patient": "NIK-100285",
+      "screening_priority": 0.00727875,
+      "screening_reason": "Screen Vansha Ramachandran (age 70, Household) \u2014 unscreened contact of a high-risk patient.",
+      "rank": 4
+    },
+    {
+      "contact_id": "CONTACT_Ojas_Bose",
+      "name": "Ojas Bose",
+      "age": 67,
+      "rel": "Household",
+      "vulnerability": 1.0,
+      "source_patient": "NIK-100473",
+      "screening_priority": 0.00727875,
+      "screening_reason": "Screen Ojas Bose (age 67, Household) \u2014 unscreened contact of a high-risk patient.",
+      "rank": 5
+    },
+    {
+      "contact_id": "CONTACT_Dipta_Tandon",
+      "name": "Dipta Tandon",
+      "age": 62,
+      "rel": "Household",
+      "vulnerability": 1.0,
+      "source_patient": "NIK-100485",
+      "screening_priority": 0.00700867,
+      "screening_reason": "Screen Dipta Tandon (age 62, Household) \u2014 unscreened contact of a high-risk patient.",
+      "rank": 6
+    },
+    {
+      "contact_id": "CONTACT_Anjali_Walia",
+      "name": "Anjali Walia",
+      "age": 74,
+      "rel": "Household",
+      "vulnerability": 1.0,
+      "source_patient": "NIK-100462",
+      "screening_priority": 0.00603189,
+      "screening_reason": "Screen Anjali Walia (age 74, Household) \u2014 unscreened contact of a high-risk patient.",
+      "rank": 7
+    },
+    {
+      "contact_id": "CONTACT_Champak_Prabhu",
+      "name": "Champak Prabhu",
+      "age": 8,
+      "rel": "Workplace",
+      "vulnerability": 1.0,
+      "source_patient": "NIK-100480",
+      "screening_priority": 0.0055991,
+      "screening_reason": "Screen Champak Prabhu (age 8, Workplace) \u2014 unscreened contact of a high-risk patient.",
+      "rank": 8
+    },
+    {
+      "contact_id": "CONTACT_Ishita_Lad",
+      "name": "Ishita Lad",
+      "age": 62,
+      "rel": "Workplace",
+      "vulnerability": 1.0,
+      "source_patient": "NIK-100408",
+      "screening_priority": 0.00502541,
+      "screening_reason": "Screen Ishita Lad (age 62, Workplace) \u2014 unscreened contact of a high-risk patient.",
+      "rank": 9
+    },
+    {
+      "contact_id": "CONTACT_Bhavini_Mangal",
+      "name": "Bhavini Mangal",
+      "age": 6,
+      "rel": "Workplace",
+      "vulnerability": 1.0,
+      "source_patient": "NIK-100085",
+      "screening_priority": 0.00500871,
+      "screening_reason": "Screen Bhavini Mangal (age 6, Workplace) \u2014 unscreened contact of a high-risk patient.",
+      "rank": 10
+    }
+  ],
   "systemic_alerts": [
     {
       "tier": 2,
