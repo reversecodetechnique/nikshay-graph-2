@@ -1,0 +1,20 @@
+# Environment / secrets — NEVER commit these
+env
+.env
+local.settings.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Azure Functions local
+bin/
+obj/
+
+# OS
+.DS_Store
+Thumbs.db
