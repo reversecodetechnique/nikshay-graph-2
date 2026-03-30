@@ -374,7 +374,7 @@ def get_adaptive_thresholds(treatment_week: int) -> dict:
     Late Continuation | 17-26          | 0.55           | 0.30
     """
     if treatment_week <= 8:
-        return {"high": 0.85, "medium": 0.50, "phase_label": "Intensive (wk 1-8)"}
+        return {"high": 0.65, "medium": 0.45, "phase_label": "Intensive (wk 1-8)"}
     elif treatment_week <= 16:
         return {"high": 0.65, "medium": 0.40, "phase_label": "Early Continuation (wk 9-16)"}
     else:

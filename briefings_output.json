@@ -1,72 +1,93 @@
 {
   "asha_briefings": {
-    "ASHA-TN-027": {
-      "asha_id": "ASHA-TN-027",
-      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100397: \u26a0 URGENT VISIT \u2014 has not taken medicine for 49 days. Bring medicine directly to the patient. Please update each card after your visit.",
-      "translated_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100397: \u26a0 URGENT VISIT \u2014 has not taken medicine for 49 days. Bring medicine directly to the patient. Please update each card after your visit.",
-      "language": "Tamil",
-      "patient_count": 1,
-      "visit_cards": [
-        {
-          "rank": 1,
-          "patient_id": "NIK-100397",
-          "risk_level": "HIGH",
-          "risk_score": 0.97,
-          "days_missed": 49,
-          "explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 49 days. Bring medicine directly to the patient.",
-          "asha_id": "ASHA-TN-027",
-          "block": "Tondiarpet"
-        }
-      ],
-      "audio_path": null,
-      "audio_available": false
-    },
-    "ASHA-TN-010": {
-      "asha_id": "ASHA-TN-010",
-      "english_text": "Good morning. You have 2 priority patient(s) today. Patient NIK-100137: \u26a0 URGENT VISIT \u2014 patient has recurrent vomiting or diarrhoea \u2014 RED FLAG. Patient may be stopping medicine due to side effects. Bring this to the MO's attention \u2014 do not advise them to stop. Patient NIK-100139: \u26a0 URGENT VISIT \u2014 has not taken medicine for 28 days. Bring medicine directly to the patient. Please update each card after your visit.",
-      "translated_text": "Good morning. You have 2 priority patient(s) today. Patient NIK-100137: \u26a0 URGENT VISIT \u2014 patient has recurrent vomiting or diarrhoea \u2014 RED FLAG. Patient may be stopping medicine due to side effects. Bring this to the MO's attention \u2014 do not advise them to stop. Patient NIK-100139: \u26a0 URGENT VISIT \u2014 has not taken medicine for 28 days. Bring medicine directly to the patient. Please update each card after your visit.",
+    "ASHA-TN-031": {
+      "asha_id": "ASHA-TN-031",
+      "english_text": "Good morning. You have 2 priority patient(s) today. Patient NIK-100460: \u26a0 URGENT VISIT \u2014 patient has breathlessness at rest \u2014 RED FLAG: urgent visit required. Bring medicine directly to the patient. Patient NIK-100462: \u26a0 URGENT VISIT \u2014 patient is confined to bed \u2014 RED FLAG: immediate referral needed. Refer to facility immediately \u2014 do not wait for next scheduled visit. You also have 1 contact(s) to screen for TB symptoms. Please update each card after your visit.",
+      "translated_text": "Good morning. You have 2 priority patient(s) today. Patient NIK-100460: \u26a0 URGENT VISIT \u2014 patient has breathlessness at rest \u2014 RED FLAG: urgent visit required. Bring medicine directly to the patient. Patient NIK-100462: \u26a0 URGENT VISIT \u2014 patient is confined to bed \u2014 RED FLAG: immediate referral needed. Refer to facility immediately \u2014 do not wait for next scheduled visit. You also have 1 contact(s) to screen for TB symptoms. Please update each card after your visit.",
       "language": "Tamil",
       "patient_count": 2,
       "visit_cards": [
         {
-          "rank": 2,
-          "patient_id": "NIK-100137",
+          "rank": 1,
+          "patient_id": "NIK-100460",
           "risk_level": "HIGH",
           "risk_score": 0.97,
-          "days_missed": 49,
-          "explanation": "\u26a0 URGENT VISIT \u2014 patient has recurrent vomiting or diarrhoea \u2014 RED FLAG. Patient may be stopping medicine due to side effects. Bring this to the MO's attention \u2014 do not advise them to stop.",
-          "asha_id": "ASHA-TN-010",
+          "days_missed": 56,
+          "explanation": "\u26a0 URGENT VISIT \u2014 patient has breathlessness at rest \u2014 RED FLAG: urgent visit required. Bring medicine directly to the patient.",
+          "asha_id": "ASHA-TN-031",
           "block": "Tondiarpet"
         },
         {
-          "rank": 5,
-          "patient_id": "NIK-100139",
+          "rank": 2,
+          "patient_id": "NIK-100462",
           "risk_level": "HIGH",
           "risk_score": 0.97,
-          "days_missed": 28,
-          "explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 28 days. Bring medicine directly to the patient.",
-          "asha_id": "ASHA-TN-010",
+          "days_missed": 49,
+          "explanation": "\u26a0 URGENT VISIT \u2014 patient is confined to bed \u2014 RED FLAG: immediate referral needed. Refer to facility immediately \u2014 do not wait for next scheduled visit.",
+          "asha_id": "ASHA-TN-031",
           "block": "Tondiarpet"
         }
       ],
       "audio_path": null,
       "audio_available": false
     },
-    "ASHA-TN-021": {
-      "asha_id": "ASHA-TN-021",
-      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100310: \u26a0 URGENT VISIT \u2014 has not taken medicine for 70 days. Bring medicine directly to the patient. Please update each card after your visit.",
-      "translated_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100310: \u26a0 URGENT VISIT \u2014 has not taken medicine for 70 days. Bring medicine directly to the patient. Please update each card after your visit.",
+    "ASHA-TN-025": {
+      "asha_id": "ASHA-TN-025",
+      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100369: \u26a0 URGENT VISIT \u2014 patient is confined to bed \u2014 RED FLAG: immediate referral needed. Refer to facility immediately \u2014 do not wait for next scheduled visit. Please update each card after your visit.",
+      "translated_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100369: \u26a0 URGENT VISIT \u2014 patient is confined to bed \u2014 RED FLAG: immediate referral needed. Refer to facility immediately \u2014 do not wait for next scheduled visit. Please update each card after your visit.",
       "language": "Tamil",
       "patient_count": 1,
       "visit_cards": [
         {
           "rank": 3,
-          "patient_id": "NIK-100310",
+          "patient_id": "NIK-100369",
           "risk_level": "HIGH",
           "risk_score": 0.97,
-          "days_missed": 70,
-          "explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 70 days. Bring medicine directly to the patient.",
-          "asha_id": "ASHA-TN-021",
+          "days_missed": 49,
+          "explanation": "\u26a0 URGENT VISIT \u2014 patient is confined to bed \u2014 RED FLAG: immediate referral needed. Refer to facility immediately \u2014 do not wait for next scheduled visit.",
+          "asha_id": "ASHA-TN-025",
+          "block": "Tondiarpet"
+        }
+      ],
+      "audio_path": null,
+      "audio_available": false
+    },
+    "ASHA-TN-002": {
+      "asha_id": "ASHA-TN-002",
+      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100016: \u26a0 URGENT VISIT \u2014 has not taken medicine for 28 days. Bring medicine directly to the patient. Please update each card after your visit.",
+      "translated_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100016: \u26a0 URGENT VISIT \u2014 has not taken medicine for 28 days. Bring medicine directly to the patient. Please update each card after your visit.",
+      "language": "Tamil",
+      "patient_count": 1,
+      "visit_cards": [
+        {
+          "rank": 4,
+          "patient_id": "NIK-100016",
+          "risk_level": "HIGH",
+          "risk_score": 0.97,
+          "days_missed": 28,
+          "explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 28 days. Bring medicine directly to the patient.",
+          "asha_id": "ASHA-TN-002",
+          "block": "Tondiarpet"
+        }
+      ],
+      "audio_path": null,
+      "audio_available": false
+    },
+    "ASHA-TN-028": {
+      "asha_id": "ASHA-TN-028",
+      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100408: \u26a0 URGENT VISIT \u2014 drug side-effects reported (grade \u22652) \u2014 patient has a pharmacological reason to stop medication. Patient may be stopping medicine due to side effects. Bring this to the MO's attention \u2014 do not advise them to stop. You also have 1 contact(s) to screen for TB symptoms. Please update each card after your visit.",
+      "translated_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100408: \u26a0 URGENT VISIT \u2014 drug side-effects reported (grade \u22652) \u2014 patient has a pharmacological reason to stop medication. Patient may be stopping medicine due to side effects. Bring this to the MO's attention \u2014 do not advise them to stop. You also have 1 contact(s) to screen for TB symptoms. Please update each card after your visit.",
+      "language": "Tamil",
+      "patient_count": 1,
+      "visit_cards": [
+        {
+          "rank": 5,
+          "patient_id": "NIK-100408",
+          "risk_level": "HIGH",
+          "risk_score": 0.97,
+          "days_missed": 49,
+          "explanation": "\u26a0 URGENT VISIT \u2014 drug side-effects reported (grade \u22652) \u2014 patient has a pharmacological reason to stop medication. Patient may be stopping medicine due to side effects. Bring this to the MO's attention \u2014 do not advise them to stop.",
+          "asha_id": "ASHA-TN-028",
           "block": "Tondiarpet"
         }
       ],
@@ -81,7 +102,7 @@
       "patient_count": 2,
       "visit_cards": [
         {
-          "rank": 4,
+          "rank": 6,
           "patient_id": "NIK-100057",
           "risk_level": "HIGH",
           "risk_score": 0.97,
@@ -91,13 +112,34 @@
           "block": "Tondiarpet"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "patient_id": "NIK-100047",
           "risk_level": "HIGH",
           "risk_score": 0.97,
           "days_missed": 21,
           "explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 21 days. Bring medicine directly to the patient.",
           "asha_id": "ASHA-TN-004",
+          "block": "Tondiarpet"
+        }
+      ],
+      "audio_path": null,
+      "audio_available": false
+    },
+    "ASHA-TN-010": {
+      "asha_id": "ASHA-TN-010",
+      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100139: \u26a0 URGENT VISIT \u2014 has not taken medicine for 28 days. Bring medicine directly to the patient. Please update each card after your visit.",
+      "translated_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100139: \u26a0 URGENT VISIT \u2014 has not taken medicine for 28 days. Bring medicine directly to the patient. Please update each card after your visit.",
+      "language": "Tamil",
+      "patient_count": 1,
+      "visit_cards": [
+        {
+          "rank": 7,
+          "patient_id": "NIK-100139",
+          "risk_level": "HIGH",
+          "risk_score": 0.97,
+          "days_missed": 28,
+          "explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 28 days. Bring medicine directly to the patient.",
+          "asha_id": "ASHA-TN-010",
           "block": "Tondiarpet"
         }
       ],
@@ -112,7 +154,7 @@
       "patient_count": 1,
       "visit_cards": [
         {
-          "rank": 6,
+          "rank": 8,
           "patient_id": "NIK-100194",
           "risk_level": "HIGH",
           "risk_score": 0.97,
@@ -133,55 +175,13 @@
       "patient_count": 1,
       "visit_cards": [
         {
-          "rank": 7,
+          "rank": 9,
           "patient_id": "NIK-100278",
           "risk_level": "HIGH",
           "risk_score": 0.97,
           "days_missed": 49,
           "explanation": "\u26a0 URGENT VISIT \u2014 patient has breathlessness at rest \u2014 RED FLAG: urgent visit required. Bring medicine directly to the patient.",
           "asha_id": "ASHA-TN-019",
-          "block": "Tondiarpet"
-        }
-      ],
-      "audio_path": null,
-      "audio_available": false
-    },
-    "ASHA-TN-028": {
-      "asha_id": "ASHA-TN-028",
-      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100407: \u26a0 URGENT VISIT \u2014 patient has recurrent vomiting or diarrhoea \u2014 RED FLAG. Bring medicine directly to the patient. Please update each card after your visit.",
-      "translated_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100407: \u26a0 URGENT VISIT \u2014 patient has recurrent vomiting or diarrhoea \u2014 RED FLAG. Bring medicine directly to the patient. Please update each card after your visit.",
-      "language": "Tamil",
-      "patient_count": 1,
-      "visit_cards": [
-        {
-          "rank": 8,
-          "patient_id": "NIK-100407",
-          "risk_level": "HIGH",
-          "risk_score": 0.97,
-          "days_missed": 21,
-          "explanation": "\u26a0 URGENT VISIT \u2014 patient has recurrent vomiting or diarrhoea \u2014 RED FLAG. Bring medicine directly to the patient.",
-          "asha_id": "ASHA-TN-028",
-          "block": "Tondiarpet"
-        }
-      ],
-      "audio_path": null,
-      "audio_available": false
-    },
-    "ASHA-TN-017": {
-      "asha_id": "ASHA-TN-017",
-      "english_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100244: \u26a0 URGENT VISIT \u2014 has not taken medicine for 56 days. Bring medicine directly to the patient. Please update each card after your visit.",
-      "translated_text": "Good morning. You have 1 priority patient(s) today. Patient NIK-100244: \u26a0 URGENT VISIT \u2014 has not taken medicine for 56 days. Bring medicine directly to the patient. Please update each card after your visit.",
-      "language": "Tamil",
-      "patient_count": 1,
-      "visit_cards": [
-        {
-          "rank": 10,
-          "patient_id": "NIK-100244",
-          "risk_level": "HIGH",
-          "risk_score": 0.97,
-          "days_missed": 56,
-          "explanation": "\u26a0 URGENT VISIT \u2014 has not taken medicine for 56 days. Bring medicine directly to the patient.",
-          "asha_id": "ASHA-TN-017",
           "block": "Tondiarpet"
         }
       ],
