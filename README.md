@@ -5,6 +5,8 @@
 
 The core insight of Nikshay-Graph is that **TB dropout is a network problem, not a records problem**. By modeling patients as nodes in a typed, weighted knowledge graph, the system uses a Temporal Graph Network (TGN) to predict dropout before it happens and provides overloaded ASHAs with a prioritized, structured daily visit list.
 
+Check out the dashboard here: https://nikshay-graph-dashboard-cxcvdfdpeddwgmdy.centralindia-01.azurewebsites.net/
+
 ---
 
 ## What It Does
